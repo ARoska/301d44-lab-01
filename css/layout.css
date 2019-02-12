@@ -3,40 +3,86 @@ body {
   margin: 0 auto; 
 }
 
+header {
+  height: 75px;
+  line-height: 75px;
+
+}
+
+nav {
+  height: 150px;
+  line-height: 150px;
+
+}
+
+section {
+  height: 250px;
+
+}
+
+article {
+  height: 500px;
+
+}
+
 div {
-  background-color: blue;
+  background-color: lightblue;
   width: 480px;
   margin: 0 auto;
-  border: 2px solid black;
-  
-}
-
-p {
+  border: 1px solid black;
   text-align: center;
-  vertical-align: middle;
 
-}
-
-header div {
-  height: 75px;
-}
-
-nav div {
-  height: 150px;
-
-}
-
-section div {
-  height: 125px;
-
-}
-
-article div {
-  height: 250px;
-  width: 240px;
-  float: left;
 }
 
 footer {
   height: 80px;
+  line-height: 80px;
+
+}
+
+@media screen and (min-width: 768px) {
+  
+  body {
+    max-width: 960px;
+    margin: 0 auto; 
+
+  }
+
+  header {
+    height: 100px;
+    line-height: 100px;
+  
+  }
+  
+  div {
+    background-color: gray;
+    border: 1px solid black;
+    text-align: center;
+  
+  }
+
+  nav {
+    float: left;
+    width: 200px;
+    height: 600px;
+
+  }
+
+  section {
+    /* float: left; */
+    height: 200px;
+    
+  }
+  
+  article {
+    /* float: left; */
+    height: 250px;
+    
+  }
+
+  footer {
+    /* float: left; */
+    height: 150px;
+
+  }    
 }
