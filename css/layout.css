@@ -69,19 +69,18 @@ footer {
   }
 
   section {
-    /* float: left; */
+    width: 760px;
     height: 200px;
     
   }
   
   article {
-    /* float: left; */
     height: 250px;
     
   }
 
   footer {
-    /* float: left; */
+    float: left;
     height: 150px;
 
   }    
