@@ -1,0 +1,42 @@
+body {
+  max-width: 480px;
+  margin: 0 auto; 
+}
+
+div {
+  background-color: blue;
+  width: 480px;
+  margin: 0 auto;
+  border: 2px solid black;
+  
+}
+
+p {
+  text-align: center;
+  vertical-align: middle;
+
+}
+
+header div {
+  height: 75px;
+}
+
+nav div {
+  height: 150px;
+
+}
+
+section div {
+  height: 125px;
+
+}
+
+article div {
+  height: 250px;
+  width: 240px;
+  float: left;
+}
+
+footer {
+  height: 80px;
+}
