@@ -1,0 +1,9 @@
+div {
+  float: left;
+  background-color: lightblue;
+  width: 480px;
+  margin: 0 auto;
+  border: 1px solid black;
+  text-align: center;
+
+}
