@@ -1,9 +1,15 @@
 div {
   float: left;
   background-color: lightblue;
-  width: 480px;
+  width: 30rem;
   margin: 0 auto;
   border: 1px solid black;
   text-align: center;
 
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  div {
+    max-width: 47.9375rem;
+  }
 }
