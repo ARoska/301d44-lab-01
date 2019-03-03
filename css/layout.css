@@ -1,5 +1,5 @@
 div {
-  float: left;
+  display: flexbox;
   background-color: lightblue;
   width: 30rem;
   margin: 0 auto;
@@ -54,6 +54,16 @@ article {
 }
 
 @media screen and (min-width: 768px) {
+  #big-container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 60rem;
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+  }
+
   #container {
     display: flex;
     flex-flow: row wrap;
